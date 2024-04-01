@@ -21,5 +21,12 @@ module.exports = {
     "implicit-arrow-linebreak": "off",
     "comma-dangle": "off",
     "function-paren-newline": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        argsIgnorePattern: "next",
+      },
+    ],
   },
 };
